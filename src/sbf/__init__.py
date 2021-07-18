@@ -5,5 +5,9 @@ try:
 except NameError:
     __SBF_SETUP__ = False
 
-if not __ARTPOP_SETUP__:
+if not __SBF_SETUP__:
+    from .masking import elliptical_mask, make_mask
     from .measure import measure
+    from . import masking
+    from . import utils
+

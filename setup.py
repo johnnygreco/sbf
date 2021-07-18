@@ -39,12 +39,13 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
-    url='https://github.com/johnnygreco/',
+    url='https://github.com/johnnygreco/sbf',
     install_requires=[
         'numpy>=1.17',
         'scipy>=1',
         'matplotlib>=3',
-        'sep=>1'
+        'astropy>=4',
+        'sep>=1'
      ],
      classifiers=[
         "Programming Language :: Python :: 3",

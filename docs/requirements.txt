@@ -1,0 +1,5 @@
+ipython
+sphinx-automodapi
+sphinx-astropy
+sphinxemoji
+nbsphinx
